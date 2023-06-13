@@ -9,21 +9,46 @@
 /* Begin PBXBuildFile section */
 		A20632052A380D2B005C8E77 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20632042A380D2B005C8E77 /* AppDelegate.swift */; };
 		A20632072A380D2B005C8E77 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20632062A380D2B005C8E77 /* SceneDelegate.swift */; };
-		A20632092A380D2B005C8E77 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20632082A380D2B005C8E77 /* ViewController.swift */; };
 		A206320C2A380D2B005C8E77 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A206320A2A380D2B005C8E77 /* Main.storyboard */; };
 		A206320E2A380D2C005C8E77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A206320D2A380D2C005C8E77 /* Assets.xcassets */; };
 		A20632112A380D2C005C8E77 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A206320F2A380D2C005C8E77 /* LaunchScreen.storyboard */; };
+		A206321A2A380D9D005C8E77 /* RIBs in Frameworks */ = {isa = PBXBuildFile; productRef = A20632192A380D9D005C8E77 /* RIBs */; };
+		A20632202A380E79005C8E77 /* RootRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A206321C2A380E79005C8E77 /* RootRouter.swift */; };
+		A20632212A380E79005C8E77 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A206321D2A380E79005C8E77 /* RootViewController.swift */; };
+		A20632222A380E79005C8E77 /* RootBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A206321E2A380E79005C8E77 /* RootBuilder.swift */; };
+		A20632232A380E79005C8E77 /* RootInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A206321F2A380E79005C8E77 /* RootInteractor.swift */; };
+		A20632252A3814F0005C8E77 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20632242A3814F0005C8E77 /* RootView.swift */; };
+		A20632272A384FB4005C8E77 /* RootPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20632262A384FB4005C8E77 /* RootPresenter.swift */; };
+		A206322E2A385A0B005C8E77 /* ChildRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A206322A2A385A0B005C8E77 /* ChildRouter.swift */; };
+		A206322F2A385A0B005C8E77 /* ChildViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A206322B2A385A0B005C8E77 /* ChildViewController.swift */; };
+		A20632302A385A0B005C8E77 /* ChildBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A206322C2A385A0B005C8E77 /* ChildBuilder.swift */; };
+		A20632312A385A0B005C8E77 /* ChildInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A206322D2A385A0B005C8E77 /* ChildInteractor.swift */; };
+		A20632332A385A48005C8E77 /* ChildView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20632322A385A48005C8E77 /* ChildView.swift */; };
+		A20632352A385A73005C8E77 /* ChildPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20632342A385A73005C8E77 /* ChildPresenter.swift */; };
+		A20632382A385D48005C8E77 /* RootComponent+Child.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20632372A385D48005C8E77 /* RootComponent+Child.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A20632012A380D2B005C8E77 /* SwiftUITest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUITest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A20632042A380D2B005C8E77 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A20632062A380D2B005C8E77 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A20632082A380D2B005C8E77 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A206320B2A380D2B005C8E77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A206320D2A380D2C005C8E77 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A20632102A380D2C005C8E77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A20632122A380D2C005C8E77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A206321C2A380E79005C8E77 /* RootRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootRouter.swift; sourceTree = "<group>"; };
+		A206321D2A380E79005C8E77 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		A206321E2A380E79005C8E77 /* RootBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootBuilder.swift; sourceTree = "<group>"; };
+		A206321F2A380E79005C8E77 /* RootInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootInteractor.swift; sourceTree = "<group>"; };
+		A20632242A3814F0005C8E77 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		A20632262A384FB4005C8E77 /* RootPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootPresenter.swift; sourceTree = "<group>"; };
+		A206322A2A385A0B005C8E77 /* ChildRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildRouter.swift; sourceTree = "<group>"; };
+		A206322B2A385A0B005C8E77 /* ChildViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildViewController.swift; sourceTree = "<group>"; };
+		A206322C2A385A0B005C8E77 /* ChildBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildBuilder.swift; sourceTree = "<group>"; };
+		A206322D2A385A0B005C8E77 /* ChildInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildInteractor.swift; sourceTree = "<group>"; };
+		A20632322A385A48005C8E77 /* ChildView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildView.swift; sourceTree = "<group>"; };
+		A20632342A385A73005C8E77 /* ChildPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildPresenter.swift; sourceTree = "<group>"; };
+		A20632372A385D48005C8E77 /* RootComponent+Child.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RootComponent+Child.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A206321A2A380D9D005C8E77 /* RIBs in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +82,59 @@
 		A20632032A380D2B005C8E77 /* SwiftUITest */ = {
 			isa = PBXGroup;
 			children = (
+				A206321B2A380DBC005C8E77 /* RIBs */,
 				A20632042A380D2B005C8E77 /* AppDelegate.swift */,
 				A20632062A380D2B005C8E77 /* SceneDelegate.swift */,
-				A20632082A380D2B005C8E77 /* ViewController.swift */,
 				A206320A2A380D2B005C8E77 /* Main.storyboard */,
 				A206320D2A380D2C005C8E77 /* Assets.xcassets */,
 				A206320F2A380D2C005C8E77 /* LaunchScreen.storyboard */,
 				A20632122A380D2C005C8E77 /* Info.plist */,
 			);
 			path = SwiftUITest;
+			sourceTree = "<group>";
+		};
+		A206321B2A380DBC005C8E77 /* RIBs */ = {
+			isa = PBXGroup;
+			children = (
+				A20632292A3859F3005C8E77 /* Child */,
+				A20632282A385824005C8E77 /* Root */,
+			);
+			path = RIBs;
+			sourceTree = "<group>";
+		};
+		A20632282A385824005C8E77 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				A20632362A385D3B005C8E77 /* Component */,
+				A206321C2A380E79005C8E77 /* RootRouter.swift */,
+				A206321D2A380E79005C8E77 /* RootViewController.swift */,
+				A206321E2A380E79005C8E77 /* RootBuilder.swift */,
+				A206321F2A380E79005C8E77 /* RootInteractor.swift */,
+				A20632242A3814F0005C8E77 /* RootView.swift */,
+				A20632262A384FB4005C8E77 /* RootPresenter.swift */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		A20632292A3859F3005C8E77 /* Child */ = {
+			isa = PBXGroup;
+			children = (
+				A206322A2A385A0B005C8E77 /* ChildRouter.swift */,
+				A206322B2A385A0B005C8E77 /* ChildViewController.swift */,
+				A206322C2A385A0B005C8E77 /* ChildBuilder.swift */,
+				A206322D2A385A0B005C8E77 /* ChildInteractor.swift */,
+				A20632322A385A48005C8E77 /* ChildView.swift */,
+				A20632342A385A73005C8E77 /* ChildPresenter.swift */,
+			);
+			path = Child;
+			sourceTree = "<group>";
+		};
+		A20632362A385D3B005C8E77 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				A20632372A385D48005C8E77 /* RootComponent+Child.swift */,
+			);
+			path = Component;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +153,9 @@
 			dependencies = (
 			);
 			name = SwiftUITest;
+			packageProductDependencies = (
+				A20632192A380D9D005C8E77 /* RIBs */,
+			);
 			productName = SwiftUITest;
 			productReference = A20632012A380D2B005C8E77 /* SwiftUITest.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +184,9 @@
 				Base,
 			);
 			mainGroup = A20631F82A380D2B005C8E77;
+			packageReferences = (
+				A20632182A380D9D005C8E77 /* XCRemoteSwiftPackageReference "RIBs" */,
+			);
 			productRefGroup = A20632022A380D2B005C8E77 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,9 +214,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A20632092A380D2B005C8E77 /* ViewController.swift in Sources */,
+				A20632212A380E79005C8E77 /* RootViewController.swift in Sources */,
+				A20632382A385D48005C8E77 /* RootComponent+Child.swift in Sources */,
+				A206322F2A385A0B005C8E77 /* ChildViewController.swift in Sources */,
+				A20632252A3814F0005C8E77 /* RootView.swift in Sources */,
+				A20632352A385A73005C8E77 /* ChildPresenter.swift in Sources */,
+				A20632272A384FB4005C8E77 /* RootPresenter.swift in Sources */,
+				A20632332A385A48005C8E77 /* ChildView.swift in Sources */,
+				A20632202A380E79005C8E77 /* RootRouter.swift in Sources */,
+				A206322E2A385A0B005C8E77 /* ChildRouter.swift in Sources */,
+				A20632302A385A0B005C8E77 /* ChildBuilder.swift in Sources */,
+				A20632232A380E79005C8E77 /* RootInteractor.swift in Sources */,
 				A20632052A380D2B005C8E77 /* AppDelegate.swift in Sources */,
 				A20632072A380D2B005C8E77 /* SceneDelegate.swift in Sources */,
+				A20632222A380E79005C8E77 /* RootBuilder.swift in Sources */,
+				A20632312A385A0B005C8E77 /* ChildInteractor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,6 +446,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A20632182A380D9D005C8E77 /* XCRemoteSwiftPackageReference "RIBs" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/uber/RIBs";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.9.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A20632192A380D9D005C8E77 /* RIBs */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A20632182A380D9D005C8E77 /* XCRemoteSwiftPackageReference "RIBs" */;
+			productName = RIBs;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A20631F92A380D2B005C8E77 /* Project object */;
 }
